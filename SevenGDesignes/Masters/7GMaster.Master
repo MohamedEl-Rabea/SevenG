@@ -39,7 +39,7 @@
                         <li class="nav-item ">
                             <a class="nav-link" href="../store-categories.aspx">
                                 <i class="material-icons">store</i>
-                                <p>Store</p>
+                                <p>Products</p>
                             </a>
                         </li>
                         <li class="nav-item ">
