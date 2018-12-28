@@ -36,6 +36,12 @@
                                 <p>Dashboard</p>
                             </a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../setting.aspx">
+                                <i class="material-icons">library_add</i>
+                                <p>Setting</p>
+                            </a>
+                        </li>
                         <li class="nav-item ">
                             <a class="nav-link" href="../store-categories.aspx">
                                 <i class="material-icons">store</i>

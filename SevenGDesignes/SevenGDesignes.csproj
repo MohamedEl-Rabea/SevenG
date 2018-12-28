@@ -125,6 +125,7 @@
     <Content Include="quotations.aspx" />
     <Content Include="sales.aspx" />
     <Content Include="Services\NotificationService.asmx" />
+    <Content Include="setting.aspx" />
     <Content Include="store-categories.aspx" />
     <Content Include="TestPages.aspx" />
     <Content Include="Web.config" />
@@ -199,6 +200,13 @@
     </Compile>
     <Compile Include="Services\NotificationService.asmx.cs">
       <DependentUpon>NotificationService.asmx</DependentUpon>
+    </Compile>
+    <Compile Include="setting.aspx.cs">
+      <DependentUpon>setting.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="setting.aspx.designer.cs">
+      <DependentUpon>setting.aspx</DependentUpon>
     </Compile>
     <Compile Include="store-categories.aspx.cs">
       <DependentUpon>store-categories.aspx</DependentUpon>

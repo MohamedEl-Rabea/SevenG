@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Masters/7GMaster.Master" AutoEventWireup="true" CodeBehind="operation.aspx.cs" Inherits="SevenGDesignes.operation" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Masters/7GMaster.Master" AutoEventWireup="true" CodeBehind="setting.aspx.cs" Inherits="SevenGDesignes.setting" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
@@ -8,10 +8,10 @@
             <div class="card card-stats">
                 <div class="card-header card-header-info card-header-icon">
                     <div class="card-icon">
-                        <i class="material-icons">menu</i>
+                        <i class="material-icons">storage</i>
                     </div>
-                    <p class="card-category">Operation section #1</p>
-                    <h4 class="card-title"><strong>Orders</strong></h4>
+                    <p class="card-category">Material</p>
+                    <h4 class="card-title"><strong>Set material data</strong></h4>
                 </div>
                 <div class="card-footer">
                     <div class="stats">
@@ -24,10 +24,10 @@
             <div class="card card-stats">
                 <div class="card-header card-header-info card-header-icon">
                     <div class="card-icon">
-                        <i class="material-icons">autorenew</i>
+                        <i class="material-icons">people</i>
                     </div>
-                    <p class="card-category">Operation section #2</p>
-                    <h4 class="card-title"><strong>Process order</strong></h4>
+                    <p class="card-category">Suppliers</p>
+                    <h4 class="card-title"><strong>Set suppliers data</strong></h4>
                 </div>
                 <div class="card-footer">
                     <div class="stats">
@@ -40,10 +40,10 @@
             <div class="card card-stats">
                 <div class="card-header card-header-info card-header-icon">
                     <div class="card-icon">
-                        <i class="material-icons">send</i>
+                        <i class="material-icons">people_outline</i>
                     </div>
-                    <p class="card-category">Operation section #3</p>
-                    <h4 class="card-title"><strong>Finish order</strong></h4>
+                    <p class="card-category">Clients</p>
+                    <h4 class="card-title"><strong>Set clients data</strong></h4>
                 </div>
                 <div class="card-footer">
                     <div class="stats">
